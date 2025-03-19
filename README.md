@@ -19,26 +19,18 @@ This project implements a machine fault detection system using **Deep Learning**
 3. **Model Training**  
    - Train a CNN model with three convolutional layers and fully connected layers.  
 4. **Evaluation**  
-   - Evaluate performance using **Test Accuracy** and a **Confusion Matrix** for class-specific results.
-
-## Requirements
-- **Python 3.x**  
-- **TensorFlow/Keras**  
-- **Librosa** (for audio data processing)  
-- **Matplotlib** (for visualizing Mel Spectrograms)  
-- **Scikit-learn** (for confusion matrix generation)  
-
-## How to Run
-1. **Upload Dataset:** Place `.wav` files in Google Drive.  
-2. **Run the Code:** The provided code will:
-   - Generate spectrogram images.  
-   - Split the data for training and testing.  
-   - Train and evaluate the model.  
-3. **Results:** View the **accuracy** and **confusion matrix** output.
+   - Evaluate performance using **Test Accuracy** and a **Confusion Matrix** for class-specific results.  
 
 ## Results
-- Achieved high accuracy in classifying faults.  
-- The model effectively distinguishes between the four fault categories.
+- Achieved an accuracy of **72.10%** in classifying faults.  
+- The model effectively distinguishes between the four fault categories.  
+
+### Accuracy Graph
+![image](https://github.com/user-attachments/assets/c2052a62-91b8-4b58-bcc6-1f904fb1a82c)
+
+
+### Confusion Matrix
+![image](https://github.com/user-attachments/assets/c86f99c4-014a-469a-a178-5d484ce44ddd)
 
 ## Future Enhancements
 - Improve accuracy with hyperparameter tuning.  
